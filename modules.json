@@ -1,0 +1,18 @@
+[	
+	"criteoIdSystem",
+	"pubCommonIdSystem",
+	"id5IdSystem",
+	"consentManagement",
+	"consentManagementUsp",
+	"emx_digitalBidAdapter",
+	"sonobiBidAdapter",
+	"nobidBidAdapter",
+	"aolBidAdapter",
+	"sovrnBidAdapter",
+	"teadsBidAdapter",
+	"sharethroughBidAdapter",
+	"tripleliftBidAdapter",
+	"ixBidAdapter",
+	"gridBidAdapter",
+	"rhythmoneBidAdapter"
+]
