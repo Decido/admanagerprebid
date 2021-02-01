@@ -2,6 +2,7 @@
 	"criteoIdSystem",
 	"pubCommonIdSystem",
 	"id5IdSystem",
+	"geoedgeRtdProvider",
 	"consentManagement",
 	"consentManagementUsp",
 	"emx_digitalBidAdapter",
