@@ -9,11 +9,14 @@
 	"sonobiBidAdapter",
 	"nobidBidAdapter",
 	"aolBidAdapter",
+	"appnexusBidAdapter",
 	"sovrnBidAdapter",
 	"teadsBidAdapter",
 	"sharethroughBidAdapter",
 	"tripleliftBidAdapter",
 	"ixBidAdapter",
 	"gridBidAdapter",
+	"openxBidAdapter",
+	"kargoBidAdapter",
 	"rhythmoneBidAdapter"
 ]
