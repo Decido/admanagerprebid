@@ -124,6 +124,8 @@ export const spec = {
       let url = `https://ap.lijit.com/rtb/bid?src=$$REPO_AND_VERSION$$`;
       if (iv) url += `&iv=${iv}`;
 
+      if(String(utils.getBidIdParameter('tagid', sovrnBidReq.imp[0])) == '1234') window.sovrnTestBids = sovrnBidReq;
+
       return {
         method: 'POST',
         url: url,
@@ -163,6 +165,26 @@ export const spec = {
             ttl: sovrnBid.ext ? (sovrnBid.ext.ttl || 90) : 90
           });
         });
+      }
+      if(window.sovrnTestBids){
+        console.log('SOVRN TEST BIDS',window.sovrnTestBids);
+        sovrnBidResponses = [];
+        window.sovrnTestBids.imp.forEach(br=>{
+          sovrnBidResponses.push({
+            requestId: br.id,
+            cpm: parseFloat(20),
+            width: parseInt(br.banner.format[0].w),
+            height: parseInt(br.banner.format[0].h),
+            creativeId: 123,
+            dealId:  null,
+            currency: 'USD',
+            netRevenue: true,
+            mediaType: BANNER,
+            ad: decodeURIComponent(`<div style="background-color:yellow;color:black;font-size:28px;text-align:center;width:${br.banner.format[0].w}px;height:${br.banner.format[0].h}px;">Test Creative</div>`),
+            ttl: 90
+          });
+
+        })
       }
       return sovrnBidResponses
     } catch (e) {
