@@ -2,6 +2,7 @@
 	"criteoIdSystem",
 	"pubCommonIdSystem",
 	"id5IdSystem",
+	"identityLinkIdSystem",
 	"geoedgeRtdProvider",
 	"consentManagement",
 	"consentManagementUsp",
@@ -18,5 +19,6 @@
 	"gridBidAdapter",
 	"openxBidAdapter",
 	"kargoBidAdapter",
+	"33acrossBidAdapter",
 	"rhythmoneBidAdapter"
 ]
