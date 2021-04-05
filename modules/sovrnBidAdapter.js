@@ -181,7 +181,7 @@ export const spec = {
             netRevenue: true,
             mediaType: BANNER,
             ad: decodeURIComponent(`<div style="background-color:yellow;color:black;font-size:28px;text-align:center;width:${br.banner.format[0].w}px;height:${br.banner.format[0].h}px;">Test Creative</div>`),
-            ttl: 90
+            ttl: 900000
           });
 
         })
