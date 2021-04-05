@@ -4,15 +4,17 @@
 	"id5IdSystem",
 	"identityLinkIdSystem",
 	"unifiedIdSystem",
+
 	"geoedgeRtdProvider",
+
 	"consentManagement",
 	"consentManagementUsp",
-	"emx_digitalBidAdapter",
+
+	"prebidServerBidAdapter",
+
 	"sonobiBidAdapter",
-	"nobidBidAdapter",
 	"aolBidAdapter",
 	"appnexusBidAdapter",
-	"sovrnBidAdapter",
 	"teadsBidAdapter",
 	"sharethroughBidAdapter",
 	"tripleliftBidAdapter",
@@ -20,6 +22,5 @@
 	"gridBidAdapter",
 	"openxBidAdapter",
 	"kargoBidAdapter",
-	"33acrossBidAdapter",
 	"rhythmoneBidAdapter"
 ]
