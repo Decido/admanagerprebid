@@ -148,6 +148,24 @@ export const spec = {
     });
   },
   interpretResponse({ body }, bidRequest) {
+
+    if(bidRequest.test){
+      return {
+        bidderCode: bidRequest.bidderCode,
+        requestId: bidRequest.bidId,
+        ad: `<div id="thisad" style="background-color:yellow;color:black;font-size:28px;text-align:center;width:${bidRequest.bid.size[0]}px;height:${bidRequest.bid.size[1]}px;">Test Creative</div>`,
+        cpm: 20,
+        width: bidRequest.bid.size[0],
+        height: bidRequest.bid.size[1],
+        creativeId: 123,
+        pubapiId: 123,
+        currency:  'USD',
+        dealId: 123,
+        netRevenue: true,
+        ttl: 900000
+      };
+    }
+
     if (!body) {
       utils.logError('Empty bid response', bidRequest.bidderCode, body);
     } else {
@@ -170,6 +188,20 @@ export const spec = {
 
   formatBidRequest(endpointCode, bid, consentData) {
     let bidRequest;
+
+    if(bid.params.dcn && bid.params.dcn == 'test'){
+      return {
+          url : this.buildOneMobileGetUrl(bid, consentData),
+          method: 'GET',
+          ttl : 90000,
+          bid : bid,
+          bidderCode: bid.bidder,
+          bidId: bid.bidId,
+          userSyncOn: bid.userSyncOn,
+          test: true
+
+      };
+    }
 
     switch (endpointCode) {
       case AOL_ENDPOINTS.DISPLAY.GET:
