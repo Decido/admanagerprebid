@@ -16,6 +16,7 @@
 	"aolBidAdapter",
 	"appnexusBidAdapter",
 	"teadsBidAdapter",
+	"yieldmoBidAdapter",
 	"sharethroughBidAdapter",
 	"tripleliftBidAdapter",
 	"ixBidAdapter",
