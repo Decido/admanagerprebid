@@ -10,16 +10,16 @@
 
 	"prebidServerBidAdapter",
 
-	"sonobiBidAdapter",
+	"33acrossBidAdapter",
 	"aolBidAdapter",
 	"appnexusBidAdapter",
-	"teadsBidAdapter",
-	"yieldmoBidAdapter",
-	"sharethroughBidAdapter",
-	"tripleliftBidAdapter",
-	"ixBidAdapter",
 	"gridBidAdapter",
+	"ixBidAdapter",
+	"nobidBidAdapter",
 	"openxBidAdapter",
-	"kargoBidAdapter",
-	"rhythmoneBidAdapter"
+	"sharethroughBidAdapter",
+	"sovrnBidAdapter",
+	"teadsBidAdapter",
+	"tripleliftBidAdapter",
+	"yieldmoBidAdapter"
 ]
