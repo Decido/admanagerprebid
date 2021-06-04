@@ -8,17 +8,12 @@
 	"consentManagement",
 	"consentManagementUsp",
 
-	"prebidServerBidAdapter",
-
-	"33acrossBidAdapter",
 	"aolBidAdapter",
 	"appnexusBidAdapter",
 	"gridBidAdapter",
 	"ixBidAdapter",
-	"nobidBidAdapter",
 	"openxBidAdapter",
 	"sharethroughBidAdapter",
-	"sovrnBidAdapter",
 	"teadsBidAdapter",
 	"tripleliftBidAdapter",
 	"yieldmoBidAdapter"
