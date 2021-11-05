@@ -1,5 +1,11 @@
 // Generate prebid for FP
-gulp build --modules=consentManagement,consentManagementUsp,identityLinkIdSystem,pubCommonIdSystem,unifiedIdSystem,appnexusBidAdapter,gridBidAdapter,aolBidAdapter,openxBidAdapter,sovrnBidAdapter,yieldmoBidAdapter,unrulyBidAdapter --version=4.36.0
+gulp build --modules=consentManagement,consentManagementUsp,identityLinkIdSystem,pubCommonIdSystem,unifiedIdSystem,appnexusBidAdapter,gridBidAdapter,aolBidAdapter,openxBidAdapter,teadsBidAdapter,sovrnBidAdapter,yieldmoBidAdapter,rhythmoneBidAdapter,sharethroughBidAdapter,tripleliftBidAdapter --version=4.36.0
 
 // Generate prebid for PC
-gulp build --modules=consentManagement,consentManagementUsp,criteoIdSystem,id5IdSystem,identityLinkIdSystem,pubCommonIdSystem,unifiedIdSystem,aolBidAdapter,appnexusBidAdapter,gridBidAdapter,openxBidAdapter,teadsBidAdapter,33acrossBidAdapter,sovrnBidAdapter,nobidBidAdapter,sharethroughBidAdapter,tripleliftBidAdapter,yieldmoBidAdapter,unrulyBidAdapter --version=4.36.0
+gulp build --modules=consentManagement,consentManagementUsp,criteoIdSystem,id5IdSystem,identityLinkIdSystem,pubCommonIdSystem,unifiedIdSystem,aolBidAdapter,appnexusBidAdapter,gridBidAdapter,openxBidAdapter,teadsBidAdapter,33acrossBidAdapter,sovrnBidAdapter,nobidBidAdapter,sharethroughBidAdapter,tripleliftBidAdapter,yieldmoBidAdapter,rhythmoneBidAdapter,onetagBidAdapter --version=4.36.0
+
+// Generate prebid for YMM
+gulp build --modules=consentManagement,consentManagementUsp,criteoIdSystem,id5IdSystem,identityLinkIdSystem,pubCommonIdSystem,unifiedIdSystem,aolBidAdapter,appnexusBidAdapter,gridBidAdapter,ixBidAdapter,openxBidAdapter,teadsBidAdapter,nobidBidAdapter,sharethroughBidAdapter,tripleliftBidAdapter,yieldmoBidAdapter --version=4.36.0
+
+// Generate prebid for TM
+gulp build --modules=consentManagement,consentManagementUsp,criteoIdSystem,id5IdSystem,identityLinkIdSystem,pubCommonIdSystem,unifiedIdSystem,aolBidAdapter,appnexusBidAdapter,gridBidAdapter,ixBidAdapter,openxBidAdapter,teadsBidAdapter,nobidBidAdapter,sharethroughBidAdapter,tripleliftBidAdapter,yieldmoBidAdapter --version=4.36.0
