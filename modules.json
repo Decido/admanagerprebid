@@ -1,20 +1,20 @@
-[	
-	"criteoIdSystem",
-	"pubCommonIdSystem",
-	"id5IdSystem",
-	"identityLinkIdSystem",
-	"unifiedIdSystem",
-
-	"consentManagement",
-	"consentManagementUsp",
-
-	"aolBidAdapter",
-	"appnexusBidAdapter",
-	"gridBidAdapter",
-	"ixBidAdapter",
-	"openxBidAdapter",
-	"sharethroughBidAdapter",
-	"teadsBidAdapter",
-	"tripleliftBidAdapter",
-	"yieldmoBidAdapter"
+[
+    "consentManagement",
+    "consentManagementUsp",
+    "identityLinkIdSystem",
+    "pubCommonIdSystem",
+    "unifiedIdSystem",
+    "appnexusBidAdapter",
+    "gridBidAdapter",
+    "aolBidAdapter",
+    "nobidBidAdapter",
+    "openxBidAdapter",
+    "onetagBidAdapter",
+    "teadsBidAdapter",
+    "sovrnBidAdapter",
+    "yieldmoBidAdapter",
+    "rhythmoneBidAdapter",
+    "sharethroughBidAdapter",
+    "tripleliftBidAdapter",
+    "medianetBidAdapter"
 ]
