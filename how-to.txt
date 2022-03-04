@@ -1,47 +1,52 @@
+
 // Generate prebid for FP
-gulp build --modules=consentManagement,consentManagementUsp,identityLinkIdSystem,pubCommonIdSystem,unifiedIdSystem,appnexusBidAdapter,gridBidAdapter,aolBidAdapter,openxBidAdapter,teadsBidAdapter,sovrnBidAdapter,yieldmoBidAdapter,rhythmoneBidAdapter,sharethroughBidAdapter,tripleliftBidAdapter --version=4.36.0
+gulp build --modules=consentManagement,consentManagementUsp,identityLinkIdSystem,pubCommonIdSystem,unifiedIdSystem,appnexusBidAdapter,gridBidAdapter,aolBidAdapter,openxBidAdapter,teadsBidAdapter,sovrnBidAdapter,yieldmoBidAdapter,sharethroughBidAdapter,tripleliftBidAdapter --version=4.36.0
 
 [
-	"consentManagement",
-	"consentManagementUsp",
-	"identityLinkIdSystem",
-	"pubCommonIdSystem",
-	"unifiedIdSystem",
-	"appnexusBidAdapter",
+    "consentManagement",
+    "consentManagementUsp",
+    "identityLinkIdSystem",
+    "pubCommonIdSystem",
+    "unifiedIdSystem",
+
+    "aolBidAdapter",
+    "appnexusBidAdapter",
+    "gridBidAdapter",
     "ixBidAdapter",
-	"gridBidAdapter",
-	"aolBidAdapter",
-	"openxBidAdapter",
-	"onetagBidAdapter",
-	"teadsBidAdapter",
-	"sovrnBidAdapter",
-	"yieldmoBidAdapter",
-	"rhythmoneBidAdapter",
-	"sharethroughBidAdapter",
-	"tripleliftBidAdapter",
+    "onetagBidAdapter",
+    "openxBidAdapter",
+    "rubiconBidAdapter",
+    "sharethroughBidAdapter",
+    "sovrnBidAdapter",
+    "teadsBidAdapter",
+    "tripleliftBidAdapter",
+    "yieldmoBidAdapter"
 ]
 
 // Generate prebid for PC
-gulp build --modules=consentManagement,consentManagementUsp,criteoIdSystem,id5IdSystem,identityLinkIdSystem,pubCommonIdSystem,unifiedIdSystem,aolBidAdapter,appnexusBidAdapter,gridBidAdapter,openxBidAdapter,teadsBidAdapter,33acrossBidAdapter,sovrnBidAdapter,nobidBidAdapter,sharethroughBidAdapter,tripleliftBidAdapter,yieldmoBidAdapter,rhythmoneBidAdapter,onetagBidAdapter --version=4.36.0
+gulp build --modules=consentManagement,consentManagementUsp,criteoIdSystem,id5IdSystem,identityLinkIdSystem,pubCommonIdSystem,unifiedIdSystem,aolBidAdapter,appnexusBidAdapter,gridBidAdapter,openxBidAdapter,teadsBidAdapter,sovrnBidAdapter,nobidBidAdapter,sharethroughBidAdapter,tripleliftBidAdapter,yieldmoBidAdapter,onetagBidAdapter --version=4.36.0
 [
-	"consentManagement",
-	"consentManagementUsp",
-	"identityLinkIdSystem",
-	"pubCommonIdSystem",
-	"unifiedIdSystem",
-	"appnexusBidAdapter",
-	"gridBidAdapter",
-	"aolBidAdapter",
-	"nobidBidAdapter",
-	"openxBidAdapter",
-	"onetagBidAdapter",
-	"teadsBidAdapter",
-	"sovrnBidAdapter",
-	"yieldmoBidAdapter",
-	"rhythmoneBidAdapter",
-	"sharethroughBidAdapter",
-	"tripleliftBidAdapter"
+    "consentManagement",
+    "consentManagementUsp",
+    "identityLinkIdSystem",
+    "pubCommonIdSystem",
+    "unifiedIdSystem",
+
+    "aolBidAdapter",
+    "appnexusBidAdapter",
+    "gridBidAdapter",
+    "ixBidAdapter",
+    "nobidBidAdapter",
+    "onetagBidAdapter",
+    "openxBidAdapter",
+    "rubiconBidAdapter",
+    "sharethroughBidAdapter",
+    "sovrnBidAdapter",
+    "teadsBidAdapter",
+    "tripleliftBidAdapter",
+    "yieldmoBidAdapter"
 ]
+
 
 
 
@@ -50,44 +55,64 @@ gulp build --modules=consentManagement,consentManagementUsp,criteoIdSystem,id5Id
 gulp build --modules=consentManagement,consentManagementUsp,criteoIdSystem,id5IdSystem,identityLinkIdSystem,pubCommonIdSystem,unifiedIdSystem,aolBidAdapter,appnexusBidAdapter,gridBidAdapter,ixBidAdapter,openxBidAdapter,teadsBidAdapter,nobidBidAdapter,sharethroughBidAdapter,tripleliftBidAdapter,yieldmoBidAdapter --version=4.36.0
 
 [
-	"consentManagement",
-	"consentManagementUsp",
-    "criteoIdSystem",
-	"identityLinkIdSystem",
-    "id5IdSystem",
-	"pubCommonIdSystem",
-	"unifiedIdSystem",
-	"appnexusBidAdapter",
+    "consentManagement",
+    "consentManagementUsp",
+    "identityLinkIdSystem",
+    "pubCommonIdSystem",
+    "unifiedIdSystem",
+
+    "aolBidAdapter",
+    "appnexusBidAdapter",
+    "gridBidAdapter",
     "ixBidAdapter",
-	"gridBidAdapter",
-	"aolBidAdapter",
-	"openxBidAdapter",
-	"onetagBidAdapter",
-	"teadsBidAdapter",
-	"sharethroughBidAdapter",
+    "onetagBidAdapter",
+    "openxBidAdapter",
+    "rubiconBidAdapter",
+    "sharethroughBidAdapter",
+    "teadsBidAdapter",
     "tripleliftBidAdapter",
-	"yieldmoBidAdapter"
+    "yieldmoBidAdapter"
 ]
 
 // Generate prebid for TM
 gulp build --modules=consentManagement,consentManagementUsp,criteoIdSystem,id5IdSystem,identityLinkIdSystem,pubCommonIdSystem,unifiedIdSystem,aolBidAdapter,appnexusBidAdapter,gridBidAdapter,ixBidAdapter,openxBidAdapter,teadsBidAdapter,nobidBidAdapter,sharethroughBidAdapter,tripleliftBidAdapter,yieldmoBidAdapter --version=4.36.0
 
 [
-	"consentManagement",
-	"consentManagementUsp",
-    "criteoIdSystem",
-	"identityLinkIdSystem",
-    "id5IdSystem",
-	"pubCommonIdSystem",
-	"unifiedIdSystem",
-	"appnexusBidAdapter",
+    "consentManagement",
+    "consentManagementUsp",
+    "identityLinkIdSystem",
+    "pubCommonIdSystem",
+    "unifiedIdSystem",
+
+    "aolBidAdapter",
+    "appnexusBidAdapter",
+    "gridBidAdapter",
     "ixBidAdapter",
-	"gridBidAdapter",
-	"aolBidAdapter",
-	"openxBidAdapter",
-	"onetagBidAdapter",
-	"teadsBidAdapter",
-	"sharethroughBidAdapter",
+    "onetagBidAdapter",
+    "openxBidAdapter",
+    "rubiconBidAdapter",
+    "sharethroughBidAdapter",
+    "teadsBidAdapter",
     "tripleliftBidAdapter",
-	"yieldmoBidAdapter"
+    "yieldmoBidAdapter"
+]
+
+// Generate prebid for SD
+//gulp build --modules=consentManagement,consentManagementUsp,criteoIdSystem,id5IdSystem,identityLinkIdSystem,pubCommonIdSystem,unifiedIdSystem,aolBidAdapter,appnexusBidAdapter,gridBidAdapter,ixBidAdapter,openxBidAdapter,teadsBidAdapter,nobidBidAdapter,sharethroughBidAdapter,tripleliftBidAdapter,yieldmoBidAdapter --version=4.36.0
+
+[
+    "consentManagement",
+    "consentManagementUsp",
+    "identityLinkIdSystem",
+    "pubCommonIdSystem",
+    "unifiedIdSystem",
+    "aolBidAdapter",
+    "appnexusBidAdapter",
+    "onetagBidAdapter",
+    "openxBidAdapter",
+    "rubiconBidAdapter",
+    "gridBidAdapter",
+    "sovrnBidAdapter",
+    "sharethroughBidAdapter",
+    "yieldmoBidAdapter"
 ]

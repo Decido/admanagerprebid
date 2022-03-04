@@ -4,17 +4,17 @@
     "identityLinkIdSystem",
     "pubCommonIdSystem",
     "unifiedIdSystem",
+
+    "aolBidAdapter",
     "appnexusBidAdapter",
     "gridBidAdapter",
-    "aolBidAdapter",
-    "nobidBidAdapter",
-    "openxBidAdapter",
+    "ixBidAdapter",
     "onetagBidAdapter",
-    "teadsBidAdapter",
-    "sovrnBidAdapter",
-    "yieldmoBidAdapter",
-    "rhythmoneBidAdapter",
+    "openxBidAdapter",
+    "rubiconBidAdapter",
     "sharethroughBidAdapter",
+    "sovrnBidAdapter",
+    "teadsBidAdapter",
     "tripleliftBidAdapter",
-    "medianetBidAdapter"
+    "yieldmoBidAdapter"
 ]
